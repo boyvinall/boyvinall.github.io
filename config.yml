@@ -1,0 +1,71 @@
+title: '@boyvinall'
+baseURL: https://boyvinall.github.io/
+theme: 
+  - bilberry-hugo
+  - boyvinall
+enableRobotsTXT: true
+DefaultContentLanguage: en
+googleAnalytics: G-S29E8EGR8J
+menus:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 5
+params:
+  css_modules:
+    - css/terminal.css
+    - css/style.css
+  js_modules: []
+  author: boyvinall
+  # description: Bilberry Premium Theme for Hugo.
+  # keywords: >-
+  #   blog,personal,responsive,search,font
+  #   awesome,pages,posts,multilingual,highlight.js,syntax
+  #   highlighting,premium,shortcuts
+  paginate: 7
+  enable_mathjax: false
+  algolia_search: false
+  resizeImages: true
+  subtitle: An archetypal tech blog
+  avatarEmail: boyvinall@gmail.com
+  overlayIcon: fa-home
+  permanentTopNav: false # false gives you a burger menu at top
+  stickyNav: false # keep top nav visible whilst scrolling page
+  showHeaderLanguageChooser: false
+  enableMomentJs: true
+  dateFormat: '2006-01-02'
+  showReadingTime: true
+  tocMinWordCount: 400
+  showFooter: true
+  amountLatestPostsInFooter: -1
+  amountCategoriesInFooter: 7
+  showFooterLanguageChooser: false
+  showSocialMedia: false
+  showArchive: false
+  copyrightBy: by boyvinall
+  copyrightUseCurrentYear: true
+  copyrightUrl: 'https://github.com/boyvinall'
+  creditsText: Powered by Bilberry Hugo Theme
+  creditsUrl: 'https://github.com/Lednerb/bilberry-hugo-theme'
+taxonomies:
+  author: author
+  tag: tags
+  category: categories
+  series: series
+outputs:
+  home:
+    - HTML
+    - JSON
+    - RSS
+  page:
+    - HTML
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true # allow html in markdown
+  tableOfContents:
+    endLevel: 5
+    ordered: false
+    startLevel: 2

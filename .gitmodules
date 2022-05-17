@@ -1,0 +1,9 @@
+[submodule "themes/pixyll"]
+	path = themes/pixyll
+	url = https://github.com/azmelanar/hugo-theme-pixyll
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/bilberry-hugo"]
+	path = themes/bilberry-hugo
+	url = https://github.com/Lednerb/bilberry-hugo-theme.git
