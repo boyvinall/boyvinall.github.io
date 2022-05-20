@@ -61,12 +61,11 @@
     background: #ff5c5c;
     font-size: 9pt;
     line-height: 11px;
-    margin-left: 4px;
+    margin-left: 6px;
     width: 11px;
     height: 11px;
     border: 1px solid #e33e41;
     border-radius: 50%;
-    float: left;
     display: inline-block;
   }
 
@@ -89,7 +88,7 @@
     background: #ffbd4c;
     font-size: 9pt;
     line-height: 11px;
-    margin-left: 8px;
+    margin-left: 6px;
     width: 11px;
     height: 11px;
     border: 1px solid #e09e3e;
@@ -116,7 +115,7 @@
     background: #00ca56;
     font-size: 9pt;
     line-height: 11px;
-    margin-left: 4px;
+    margin-left: 6px;
     width: 11px;
     height: 11px;
     border: 1px solid #14ae46;
