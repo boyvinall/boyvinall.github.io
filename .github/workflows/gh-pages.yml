@@ -21,7 +21,7 @@ jobs:
 
       - name: Rebuild theme
         run: |
-          cp -r themes/bilberry-hugo.override/ themes/bilberry-hugo
+          cp -r themes/bilberry-hugo.override/* themes/bilberry-hugo/
           cd themes/bilberry-hugo
           npm install
           npm run production
