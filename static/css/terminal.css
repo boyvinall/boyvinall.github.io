@@ -3,9 +3,7 @@
 /* window BEGIN */
 .window {
     background: #fff;
-    /* width: 65vw; */
     max-width: 100%;
-    min-width: 600px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -13,16 +11,16 @@
     border-radius: 6px;
     box-shadow: 0px 0px 20px #acacac;
   }
-  
+
   .window a {
     text-decoration: none;
   }
-  
+
   .window span {
     line-height: 9px;
     vertical-align: 50%;
   }
-  
+
   .titlebar {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #ebebeb, color-stop(1.0, #d5d5d5)));
     background: -webkit-linear-gradient(top, #ebebeb, #d5d5d5);
@@ -47,18 +45,18 @@
     -o-user-select: none;
     cursor: default;
   }
-  
+
   .buttons {
     padding-left: 8px;
     padding-top: 5px;
     float: left;
     line-height: 0px;
   }
-  
+
   .buttons:hover a {
     visibility: visible;
   }
-  
+
   .bclose {
     background: #ff5c5c;
     font-size: 9pt;
@@ -71,22 +69,22 @@
     float: left;
     display: inline-block;
   }
-  
+
   .bclose:active {
     background: #c14645;
     border: 1px solid #b03537;
   }
-  
+
   .bclose:active .closebutton {
     color: #4e0002;
   }
-  
+
   .closebutton {
     color: #820005;
     visibility: hidden;
     cursor: default;
   }
-  
+
   .minimize {
     background: #ffbd4c;
     font-size: 9pt;
@@ -98,22 +96,22 @@
     border-radius: 50%;
     display: inline-block;
   }
-  
+
   .minimize:active {
     background: #c08e38;
     border: 1px solid #af7c33;
   }
-  
+
   .minimize:active .minimizebutton {
     color: #5a2607;
   }
-  
+
   .minimizebutton {
     color: #9a5518;
     visibility: hidden;
     cursor: default;
   }
-  
+
   .zoom {
     background: #00ca56;
     font-size: 9pt;
@@ -125,23 +123,23 @@
     border-radius: 50%;
     display: inline-block;
   }
-  
+
   .zoom:active {
     background: #029740;
     border: 1px solid #128435;
   }
-  
+
   .zoom:active .zoombutton {
     color: #003107;
   }
-  
+
   .zoombutton {
     color: #006519;
     visibility: hidden;
     cursor: default;
   }
   /* window END */
-  
+
   /* terminal BEGIN */
   .terminal {
     margin: 0;
@@ -152,7 +150,7 @@
     font-family: "Courier New", "Courier", monospace;
     /* font-size: 0.6rem; */
     line-height: 1.6em;
-   
+
     -webkit-border-bottom-right-radius: 3px;
     -webkit-border-bottom-left-radius: 3px;
     -moz-border-radius-bottomright: 3px;
@@ -160,17 +158,17 @@
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
   }
-  
+
   .terminal ul {
     padding-left: 0;
     margin-left: 0;
     margin-bottom: 0;
+    overflow-x: auto;
   }
-   
+
   .terminal li {
-    width: 100%;
-    word-wrap: break-word;
-    white-space: pre-wrap;
+    min-width: max-content;
+    display: block;
     position: relative;
     padding: 0 0 0 15px;
     list-style: none;
